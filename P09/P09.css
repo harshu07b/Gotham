@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+}
+header {
+    background-color: rgb(4, 171, 200);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: yellow;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+}
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.card {
+    background-color: white;
+    width: 250px;
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: rgb(0, 97, 139);
+    margin-top: 0;
+}
+
+.card p {
+    color: #333;
+}
+
+.card button {
+    background-color: rgb(5, 204, 230);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: rgb(6, 204, 239);
+}
+
+
+footer {
+    background-color: rgb(6, 225, 203);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+
